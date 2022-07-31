@@ -1,0 +1,224 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 2%);
+    min-height: 100vh;
+    overflow: hidden;
+    
+}
+.container{
+    margin: 20px 30px;
+}
+.d-hidden{
+    display: none;
+}
+
+.card{
+    background-color: hsl(213, 19%, 18%);
+    border: 2px solid hsl(213, 19%, 18%);
+    border-radius: 25px;
+    width: 24.3rem;
+    height: 25rem;
+    margin: auto;
+    margin-top:7rem;
+
+}
+.rounded{
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 50%;
+    background-color: hsl(213, 15%, 14%);
+    width: 55px;
+    height: 55px;
+}
+.select{
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 20px;
+    background-color: hsl(213, 15%, 14%);
+    padding: 5px;
+    color: hsl(25, 97%, 53%);
+    width: 160px;
+}
+.iconstar{
+    padding-left: 19px;
+    padding-top: 17px;
+}
+.ask{
+    font-family:[Overpass];
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 30px;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.white{
+    color: hsl(0, 0%, 100%);
+}
+
+.grey{
+    color: hsl(217, 12%, 63%) ;
+}
+.request{
+    font-family:[Overpass];
+    font-weight: 400;
+    text-align: justify;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mt{
+    margin-top: 10px;
+}
+.mt-1{
+    margin-top: 20px;
+}
+.mt-2{
+    margin-top: 85px;
+}
+.thanksimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-container > input{
+    margin-right: 15px;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+.flex-container > input:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+.flex-container{
+    display: flex;
+}
+.font-1{
+    font-size: 1rem;
+}
+
+.font-3{
+    font-size: 25px;
+}
+.submit > button{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 20px;
+    padding: 15px 140px;
+    font-size: 15px;
+    font-family: [Overpass];
+    font-weight: 700;
+}
+.thanksmsg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit > button:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-weight: 700;
+}
+.text-center{
+    text-align: center;
+}
+
+@media (max-width:1200px) {
+    .card{
+       margin-top: 3rem;
+    }
+    
+}
+@media (max-width:800px) {
+    
+    .submit > button{
+        padding: 15px 125px;
+    }
+    .flex-container > input{
+           margin-right: 10px;
+    }
+    
+}
+@media (max-width:500px) {
+    .card{
+       width: 21rem;
+    }
+    .rounded{
+        width: 50px;
+        height: 50px;
+    }
+    .iconstar{
+        padding-left: 16px;
+        padding-top: 14px;
+    }
+    .font-1 {
+        font-size: 15px;
+    }
+    .font-2 {
+        font-size: 13.8px;
+    }
+}
+@media (max-width:380px) {
+    .card{
+        width: 19rem;
+    }
+    .submit > button{
+        padding: 15px 90px;
+    }
+    .rounded{
+        width: 40px;
+        height: 40px;
+    }
+    .iconstar{
+        padding-left: 11px;
+        padding-top: 10px;
+    }
+    .font-1 {
+        font-size: 13px;
+    }
+    .font-2 {
+        font-size: 11.8px;
+    }
+    .ask{
+        font-size: 25px;
+    }
+    .mt-0{
+        margin-top: 45px;
+    }
+   
+    
+}
+@media (max-width:350px) {
+    .card{
+        width: 16rem;
+    }
+    .flex-container > input{
+        margin-right: 8px;
+ }
+ .rounded{
+    width: 31px;
+    height: 31px;
+}
+.font-2{
+    font-size: 11px;
+}
+.font-1{
+    font-size: 10.5px;
+}
+.iconstar{
+    padding-left: 7px;
+    padding-top: 6px;
+}
+.submit > button{
+    padding: 15px 70px;
+}
+ 
+    
+}

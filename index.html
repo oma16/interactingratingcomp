@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactive-rating-component-main</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/favicon-32x32.png" type="image/x-icon">
+     <link rel="stylesheet" href="https://fonts.google.com/specimen/Overpass">
+    
+</head>
+<body>
+    <main>
+        
+            <div id="card1" class="card">
+                <div class="container">
+                    <div class="iconstar rounded mb mt-0">
+                        <img src="imgs/icon-star.svg" alt="icon-star">
+                    </div>
+                    <div class="thanksmsg" role="form">
+                        <div class="mb ">
+                            <p class="ask mb ">How did we do?</p>
+                            <p class="request font-1 grey"> Please let us know how we did with your support request. All feedback is appreciated to help us improve our offerings!</p>
+                        </div>
+                        <div id="buttons"  class="flex-container mb ">
+                            <input type="button" value="1" class="rounded">
+                            <input type="button" value="2" class="rounded">
+                            <input type="button" value="3" class="rounded">
+                            <input type="button" value="4" class="rounded">
+                            <input type="button" value="5" class="rounded">
+                            
+                        </div>
+                        <div class="submit">
+                            <button type="submit" onclick="displayCard()">SUBMIT</button>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div id="card2" class="card d-hidden">
+                <div class="container">
+                    <div class="thanksimg mt"><img src="imgs/illustration-thank-you.svg" alt="icon-star" class="mt-1"></div>
+                    <div class="mb mt-1 thanksmsg">
+                        <p id="displayRating" class="select mb text-center mt"></p>
+                        <h1 class="request text-center mt white font-3"> Thank you!</h1>
+                    </div>
+                    <div class="flex-container mb">
+                          <p class="text-center request font-1 grey">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+                    </div>
+                    
+                </div>
+             </div>
+        
+    </main>
+    <footer class="mt-1">
+        <p class="text-center request mb mt-2 white font-1">Challenge by Frontend Mentor. Coded by Alli Mariam Titilope.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
